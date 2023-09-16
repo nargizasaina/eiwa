@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
 @import 'variables';
 
-j {
-  font-family: Inter;
+body {
+  font-family: $font-inter, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
