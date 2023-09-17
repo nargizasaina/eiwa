@@ -12,9 +12,9 @@ export const Header = () => {
         <InformationContainer>
           <img src={Logo} alt="" />
           <LinkTagContainer>
-            <a href="e">О нас</a>
-            <a href="e">Новости</a>
-            <a href="e">Контакты</a>
+            <a href="#">О нас</a>
+            <a href="#">Новости</a>
+            <a href="#">Контакты</a>
           </LinkTagContainer>
         </InformationContainer>
       </HeaderContainer>
@@ -91,6 +91,9 @@ const LinkTagContainer = styled.div`
     color: #757b8a;
   }
   :first-child {
+    color: #a76b51;
+  }
+  :active {
     color: #a76b51;
   }
 `;

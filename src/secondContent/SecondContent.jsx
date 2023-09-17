@@ -39,7 +39,7 @@ const ImageContainer = styled.div`
   text-align: center;
   :last-child {
     position: absolute;
-    left: 23.5rem;
+    left: 21rem;
     top: 102rem;
   }
 `;
