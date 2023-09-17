@@ -10,9 +10,9 @@
         border-radius: 16px;
         background: #9b6a63;
         width: 1323px;
-        height: 490px;
+        height: 461px;
         &__content {
-          margin: 80px;
+          margin: 62px 80px 80px 80px;
           h1 {
             width: 645px;
             color: #fff;
@@ -107,13 +107,13 @@
         &__img {
           &--imgIphone {
             position: absolute;
-            right: -23px;
-            bottom: 58px;
+            right: -59px;
+            bottom: -54px;
           }
           &--imgVector {
             position: absolute;
             right: 289px;
-            top: 111px;
+            top: 128px;
           }
         }
       }

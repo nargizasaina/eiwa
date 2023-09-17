@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import Play from "../assets/icons/play.svg";
 import image from "../assets/img/Image.svg";
 
 export const SecondContent = () => {
@@ -7,6 +8,7 @@ export const SecondContent = () => {
     <Container>
       <ImageContainer>
         <img src={image} alt="" />
+        <img src={Play} alt="" />
       </ImageContainer>
       <ContentContainer>
         <h1>Наша Миссия: Забота о Вашем Материнстве</h1>
@@ -35,6 +37,11 @@ const Container = styled.div`
 const ImageContainer = styled.div`
   width: 50%;
   text-align: center;
+  :last-child {
+    position: absolute;
+    left: 21rem;
+    top: 102rem;
+  }
 `;
 
 const ContentContainer = styled.div`
