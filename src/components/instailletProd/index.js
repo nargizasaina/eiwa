@@ -2,7 +2,7 @@ import React from "react";
 import "../instailletProd/style.scss";
 import logoApple from "../../assets/apple-logo.png";
 import GooglePlay from "../../assets/google-play.webp";
-import iphone from "../../assets/iPhone 12 Pro.png";
+import iphone from "../../assets/iPhone 12 Pro (1).png";
 import vector from "../../assets/Vector.png";
 const InstailletProd = () => {
   return (
