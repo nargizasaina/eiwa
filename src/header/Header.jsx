@@ -3,51 +3,32 @@ import woman from "../assets/img/wooman.svg";
 import Arrow from "../assets/icons/Arrow.svg";
 import Applle from "../assets/icons/Icon-Mac.svg.png";
 import Google from "../assets/icons/Google.svg";
+import Logo from "../assets/icons/logo.svg";
 
 export const Header = () => {
   return (
     <Container>
       <HeaderContainer>
         <InformationContainer>
-          <h1>EIWA</h1>
+          <img src={Logo} alt="" />
           <LinkTagContainer>
             <a href="e">О нас</a>
             <a href="e">Новости</a>
             <a href="e">Контакты</a>
           </LinkTagContainer>
         </InformationContainer>
-        <ContainerButtonLink>
-          <LinkButtonContainer>
-            <div>
-              <img src={Applle} alt="AppStore" />
-            </div>
-            <div className="text-button">
-              <p>DOWNLOAD ON THE</p>
-              <h2>App Store</h2>
-            </div>
-          </LinkButtonContainer>
-          <LinkButtonContainer>
-            <div>
-              <GoogleImage src={Google} alt="GooglePlay" />
-            </div>
-            <div className="text-button">
-              <p>GET IT ON</p>
-              <h2>Google Play</h2>
-            </div>
-          </LinkButtonContainer>
-        </ContainerButtonLink>
       </HeaderContainer>
       <SecondContainer>
         <ImageArrowContainer>
           <img src={Arrow} alt="go" />
         </ImageArrowContainer>
         <ContentContainer>
-          <h1>Добро пожаловать в мир заботы о матерях и новорожденных!</h1>
+          <h4>EMPATHY | INNOVATION | WOMEN | AI</h4>
+          <h1>Мы рады приветствовать вас на нашем проекте!</h1>
           <p>
-            Мы рады приветствовать вас на нашем проекте, посвященном здоровью
-            матерей и младенцев в Кыргызской Республике. Наша цель - снижение
-            показателей материнской и неонатальной смертности и обеспечение
-            доступа к информации и поддержке для будущих мам и их детей.
+            EIWA - это платформа для беременных и планирующих беременность
+            женщин. Наше решение предлагает разносторонние возможности для
+            оказания поддержки женщинам в этот самый уязвимый период
           </p>
           <SecondContainerButton>
             <LinkButtonContainer>
@@ -88,26 +69,16 @@ const HeaderContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 23.0625rem;
 `;
-const ContainerButtonLink = styled.div`
-  display: flex;
-  gap: 1.5rem;
-  :hover {
-    background-color: #9b6952;
-  }
-  :active {
-    background-color: #9b6a63;
-  }
-  cursor: pointer;
-`;
+
 const InformationContainer = styled.div`
   display: flex;
   align-items: center;
-  gap: 4rem;
-  h1 {
-    color: #a76b51;
-    margin-right: 2rem;
+  justify-content: space-around;
+  gap: 35rem;
+  width: 100%;
+  img {
+    margin-right: 5rem;
   }
 `;
 const LinkTagContainer = styled.div`
@@ -142,10 +113,12 @@ const LinkButtonContainer = styled.div`
     font-size: 10px;
     color: #e2dfdf;
     margin-bottom: -12px;
+    margin-top: 0.3rem;
   }
   h2 {
     color: #fff;
     font-size: 20px;
+    margin-top: 0.5rem;
   }
 `;
 
@@ -175,22 +148,32 @@ const SecondContainerButton = styled.div`
 
 const ImageArrowContainer = styled.div`
   height: 28rem;
-  padding-top: 24rem;
+  padding-top: 25rem;
 `;
 
 const ContentContainer = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.5rem;
   width: 50%;
+  h1 {
+    margin-top: -3rem;
+  }
+  h4 {
+    color: #9b6a63;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 5rem;
+  }
+  p {
+    line-height: 1.5rem;
+  }
 `;
 
 const WomanImage = styled.div`
   position: absolute;
   right: 0.5%;
   top: 11.5%;
-`;
-const GoogleImage = styled.img`
-  width: 20px;
-  height: 32px;
 `;
