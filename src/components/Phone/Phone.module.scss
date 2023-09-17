@@ -1,0 +1,31 @@
+@import '../../Styles/variables.scss';
+
+.phoneBlock{
+  padding: 90px 40px 150px;
+  background: url('../../assets/phone.png') no-repeat right 5%;
+
+  &__textPart {
+    width: 528px;
+
+    &__title {
+      font-weight: 600;
+      font-size: 48px;
+      color: $black;
+      line-height: 57.6px;
+    }
+  
+    &__text {
+      font-weight: 500;
+      font-size: 16px;
+      margin-bottom: 40px;
+    }
+  
+    &__link {
+      padding: 16px 50px;
+      background-color: $brown;
+      color: $white;
+      text-decoration: none;
+      border-radius: 100px;
+    }
+  }
+}
