@@ -1,7 +1,7 @@
 import React from "react";
-import img1 from "../../assets/Image (4).png";
-import img2 from "../../assets/Image (5).png";
-import img3 from "../../assets/Image (6).png";
+import img1 from "../../assets/news1.jpg";
+import img2 from "../../assets/news3.jpg";
+import img3 from "../../assets/news2.jpg";
 import "../news/style.scss";
 const News = () => {
   return (
@@ -14,26 +14,23 @@ const News = () => {
           <div className="news--contents">
             <div className="news--contents__block1">
               <img src={img1} alt="img" />
-              <h5>Lorem Ipsum</h5>
               <p>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatu
+                В апреле прошел мастштабный фестиваль для беременных девушек
+                MAMA FEST
               </p>
             </div>
             <div className="news--contents__block2">
               <img src={img2} alt="img" />
-              <h5>Lorem Ipsum</h5>
               <p>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatu
+                Наша гинекологиня провела лекцию на открытом воздухе на тему:
+                Как подготовиться к беременности и какие анализы сдавать
               </p>
             </div>
             <div className="news--contents__block3">
               <img src={img3} alt="img" />
-              <h5>Lorem Ipsum</h5>
               <p>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatu
+                Наши партнеры проводят розыгрыш призов в честь Нового года,
+                участвовать могут все желающие
               </p>
             </div>
           </div>
