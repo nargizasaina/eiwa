@@ -1,0 +1,101 @@
+#news {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    .news {
+      margin-top: 117px;
+      &--text {
+        h1 {
+          color: #181818;
+          font-family: Inter;
+          font-size: 48px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 120%;
+        }
+      }
+      &--contents {
+        img {
+          width: 434px;
+        }
+        display: flex;
+        margin-top: 64px;
+        &__block1 {
+          margin-right: 20px;
+          h5 {
+            color: #ffb2a3;
+            font-feature-settings: "clig" off, "liga" off;
+            font-family: Inter;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: -0.63px;
+            margin-top: 24px;
+            margin-bottom: -10px;
+          }
+          p {
+            color: #101010;
+            font-family: Inter;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: -0.9px;
+            width: 319px;
+          }
+        }
+        &__block2 {
+          margin-right: 20px;
+          h5 {
+            color: #ffb2a3;
+            font-feature-settings: "clig" off, "liga" off;
+            font-family: Inter;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: -0.63px;
+            margin-top: 24px;
+            margin-bottom: -10px;
+          }
+          p {
+            color: #101010;
+            font-family: Inter;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: -0.9px;
+            width: 319px;
+          }
+        }
+        &__block3 {
+          margin-right: 20px;
+          h5 {
+            color: #ffb2a3;
+            font-feature-settings: "clig" off, "liga" off;
+            font-family: Inter;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: -0.63px;
+            margin-top: 24px;
+            margin-bottom: -10px;
+          }
+          p {
+            color: #101010;
+            font-family: Inter;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: -0.9px;
+            width: 319px;
+          }
+        }
+      }
+    }
+  }
+}
