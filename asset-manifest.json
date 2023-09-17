@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/eiwa/static/css/main.c763ba8a.css",
+    "main.js": "/eiwa/static/js/main.4d6fa476.js",
+    "static/media/Image (5).png": "/eiwa/static/media/Image (5).90757f7cab6fed67681b.png",
+    "static/media/Image (6).png": "/eiwa/static/media/Image (6).a6ceac63075376712954.png",
+    "static/media/Image (1).png": "/eiwa/static/media/Image (1).a27ec9bcea1c96bd0228.png",
+    "static/media/Image (4).png": "/eiwa/static/media/Image (4).4362e3f447a6da5784ec.png",
+    "static/media/Image (3).png": "/eiwa/static/media/Image (3).fda3a9edfa1f30790288.png",
+    "static/media/Image (2).png": "/eiwa/static/media/Image (2).a7cbfb8f45909bd2c349.png",
+    "static/media/Image.png": "/eiwa/static/media/Image.97c70d138f209bf20711.png",
+    "static/media/phone.png": "/eiwa/static/media/phone.9a9affa1cea00336b38a.png",
+    "static/media/iPhone 12 Pro.png": "/eiwa/static/media/iPhone 12 Pro.4665dfa8f1fc3c6ae4ff.png",
+    "static/media/apple-logo.png": "/eiwa/static/media/apple-logo.d5e34e6f137b459c22a3.png",
+    "static/media/google-play.webp": "/eiwa/static/media/google-play.f38df78c211b92e65d18.webp",
+    "index.html": "/eiwa/index.html",
+    "main.c763ba8a.css.map": "/eiwa/static/css/main.c763ba8a.css.map",
+    "main.4d6fa476.js.map": "/eiwa/static/js/main.4d6fa476.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c763ba8a.css",
+    "static/js/main.4d6fa476.js"
+  ]
+}
